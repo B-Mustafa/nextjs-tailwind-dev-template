@@ -1,7 +1,5 @@
 ## NextJs Tailwind Dev Template
 
-<div align="center">
-
 <p>Beautiful and minimal website template created with NextJs and tailwind CSS</p>
 
 Check out for yourself! [Here](https://nextjs-tailwind-dev-template.vercel.app/)
@@ -13,5 +11,3 @@ Check out for yourself! [Here](https://nextjs-tailwind-dev-template.vercel.app/)
 ### Contributing
 
 Improve this website template with your own creativity! Fork, Code and contribute!
-
-</div>
