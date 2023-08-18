@@ -18,7 +18,7 @@ const Footer = () => {
           <p className="p-color text-sm">Wanna help us?</p>
           <Link
             className="text-gray-300 text-sm"
-            href="https://github.com/preetsuthar17/nextjs-tailwind-template"
+            href="https://github.com/preetsuthar17/nextjs-tailwind-dev-template"
             target="_blank"
           >
             Contribute in this website 😍
