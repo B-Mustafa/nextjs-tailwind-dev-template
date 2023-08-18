@@ -1,0 +1,23 @@
+.container {
+  margin: 1rem auto;
+}
+
+.main-heading {
+  padding: 1rem;
+  font-weight: 600;
+  background: #45a2ff;
+  background: linear-gradient(to right, #45a2ff 0%, #b082ff 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-icons {
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.container-icon {
+  background-color: #1f1f20;
+  padding: 0.3rem;
+  border-radius: 40%;
+}

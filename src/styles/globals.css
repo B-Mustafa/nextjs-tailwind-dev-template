@@ -11,17 +11,52 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 21, 23, 24;
     --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  width: 99%;
+  margin: 0 auto !important;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: "sofiapro";
+}
+
+*::selection {
+  background-color: transparent !important;
+}
+
+@font-face {
+  font-family: "sofiapro";
+  src: url(../utils/fonts/sofia-pro.otf);
+}
+
+.btn {
+  display: flex;
+  padding: 0.5rem 0.7rem;
+  background-color: #26292b;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+  border: 2px solid #303437;
+  border-radius: 6px;
+  transition: 0.2s all ease-in-out;
+}
+
+.btn:hover {
+  background-color: #303437;
+  color: #eeeeee;
+}
+
+.h-color {
+  color: #fff;
+}
+
+.p-color {
+  color: #adafb1;
 }
